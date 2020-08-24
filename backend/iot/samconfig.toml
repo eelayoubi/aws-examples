@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "animals-backend"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-y6k2g2lxgnhu"
+s3_prefix = "animals-backend"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+

@@ -1,0 +1,17 @@
+{
+  "name": "get_name",
+  "version": "1.0.0",
+  "description": "get name sample for NodeJS",
+  "main": "app.js",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "dependencies": {
+    "uuid": "8.3.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.732.0"
+  }
+}

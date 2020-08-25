@@ -1,4 +1,4 @@
-# Decoupling the  Frontend using AWS IOT
+# Decoupling the Frontend using AWS IOT
 
 In this example I walk you through how you can decouple your frontend using IOT. The front end is a very basic app, built with angular 10. The frontend consists of a page with one button, when clicked, it will send a request to the API Gateway to add an animal. Once the animal is added in DynamoDB, it will trigger a stream that will trigger a Lambda Function called 'AlertIOTFunction'. This function will publish the newly added animal to an IOT thing which the frontend is subscribing to using mqtt. So in the browser console you can see that we are printing that item coming from the IOT.
 

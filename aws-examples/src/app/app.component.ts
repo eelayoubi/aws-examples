@@ -93,7 +93,7 @@ export class AppComponent implements OnInit {
     })
   }
 
-  onClickMe() {
+  insertAnimal() {
     this.http.post(`${this.api}add-animal`, {
       "name": "ezzo",
       "age": 1
